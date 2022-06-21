@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    align-items:baseline;
+}
+
+.socialmedia {
+    margin: 0px;
+    padding: 0px;
+}
+
+.socialmedia ul {
+    padding: 5px;
+    margin: 0px
+}
+
+.socialmedia ul li {
+    padding: 1%;
+    margin: 0px
+}
+.socialmedia ul li a{
+    color: rgba(112,112,117,1);
+    text-decoration: none;
+  }
+
+.socialmedia ul li a:hover {
+    color: rgba(117,187,245,1);
+}
+
+.bg {
+    background-image: url("../bg.PNG");
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
